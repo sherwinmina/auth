@@ -6,7 +6,7 @@ import LoginForm from './components/LoginForm';
 
 class App extends Component {
   ComponentWillMount() {
-    firebase.initializeApp.apply({
+    firebase.initializeApp({
       apiKey: 'AIzaSyBaobC_znqrt8Sc8skhx_tqvTQX_MMpnY8',
       authDomain: 'authentication-1d477.firebaseapp.com',
       databaseURL: 'https://authentication-1d477.firebaseio.com',
